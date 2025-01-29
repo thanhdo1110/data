@@ -1,7 +1,9 @@
 // check_key_replace.js - Quantumult X Script
 var newBody = JSON.stringify({
-    "key": "HdangIos-fe6b37d44e4240fba018d6461a09152e",
-    "uuid": "9AA5670A-7ED5-4173-9932-57FFA38309AD"
+  "activation_date": "29-01-2025",
+  "amount": "30-01-2025",
+  "message": "Key h\u1ee3p l\u1ec7.",
+  "status": "success"
 });
 
 $done({ body: newBody });
