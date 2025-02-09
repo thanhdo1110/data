@@ -1,5 +1,5 @@
 {
-       "notiadmin": "nil", //nil là ko có gì 
+       "notiadmin": "null",
       "notiadmin": "test",
       "phimtat": "shortcuts://run-shortcut?name=Đổi",
     "urlphimtatupdate": "https://www.icloud.com/shortcuts/49ee6265a8ed4ee786050ebb71f17c16",
