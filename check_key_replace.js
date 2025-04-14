@@ -1,4 +1,7 @@
 // check_key_replace.js - Quantumult X Script
-var newBody = "PMuPmATmEj1Q+Ve902Cqjv/Rul77v5DJvyaydPTJinx9yZbCmTgmLsWf479fHqDnvAoK1QpRLWEy7Xh8xzIUK5E692olguu2wmERcpnlyKgu02dJ//pfBs/099ZKy+KMvMsjyiZiLmEzq5SyGAfvIdp0RdrrCik2QG+Vg3iFY0fwz+UR7ZfRDrhJJJDv14WaatxYWceFn1G0dpgkZH7VDObq5CiiIImpjkPZwM+lejQHqz0GhC90NcGUuSWGR1JE";
+var newBody = JSON.stringify({
+    data: "PMuPmATmEj1Q+Ve902CqjtoRW1dwB1lFHrdBpykvk/GdsgAumF3j1NYCvpRxmj1mEO+FIrXVr5dDLEA4uY0cIZ0guV+ABJ+essteKn/o9A259Itac1AasbJiwVASQ+uiutjMEFhDV9azQ063d6va4gsm2EZL9LLm7c6NxQNmQKvSJ/3c9gMbjUcNQzzUIso+tJNwu0V2z6dZTHBPTrsWU7qHfKia762ag7ahJdEDnrYFZGWg437bp9Z7MsbJtfPi"
+});
 
+// Đảm bảo bạn không thay đổi các header hoặc response status
 $done({ body: newBody });
