@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array/>
+				<key>ServerName</key>
+				<string>NextDNS (9d1d66)</string>
+				<key>ServerURL</key>
+				<string>https://dns.nextdns.io/9d1d66</string>
+			</dict>
+			<key>OnDemandRules</key>
+			<array>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+					<key>InterfaceTypeMatch</key>
+					<string>WiFi</string>
+				</dict>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+					<key>InterfaceTypeMatch</key>
+					<string>Cellular</string>
+				</dict>
+			</array>
+			<key>PayloadDisplayName</key>
+			<string>NextDNS (9d1d66)</string>
+			<key>PayloadIdentifier</key>
+			<string>com.example.systemwide.dns.nextdns.37A5BD83-AF9C-45D1-85BC-44F4E36AA3AF</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>23E9D6BF-047B-4993-9D6A-4D5127C2F398</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Block FMI by 34306.</string>
+	<key>PayloadDisplayName</key>
+	<string>Block FMI</string>
+	<key>PayloadIdentifier</key>
+	<string>com.example.systemwide.dns.nextdns</string>
+	<key>PayloadOrganization</key>
+	<string>Custom</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>E6D2B98F-11F2-46E1-84DB-3AA1DAEDE85B</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
