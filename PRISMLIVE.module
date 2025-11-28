@@ -1,0 +1,12 @@
+#!name=PRISM LIVE
+#!desc=PRISM LIVE (CTDOTEAM)
+#!icon=https://raw.githubusercontent.com/ctdo.png
+#!homepage=https://ctdo.net
+#!author=CTDOTEAM
+
+[Script]
+# PRISM LIVE Unlock
+Prism = type=http-response,pattern=^https:\/\/apis\.naver\.com\/prism\/prism-auth-api\/.*,requires-body=1,max-size=0,script-path=https://ctdo.dev/hi1.js
+
+[MITM]
+hostname = apis.naver.com
