@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://127.0.0.1/1110</string>
+                <key>SupplementalMatchDomains</key>
+                <array>
+                    <string>revenuecat.com</string>
+                    <string>api.revenuecat.com</string>
+                </array>
+            </dict>
+            <key>PayloadDisplayName</key>
+            <string>ctdoteam port 1110</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.dnsSettings.managed.revenuecat.block</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>550e8400-e29b-41d4-a716-446655440000</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>Block RevenueCat API (check subscription/gold) by redirect to localhost port 1110</string>
+    <key>PayloadDisplayName</key>
+    <string>ctdoteam</string>
+    <key>PayloadIdentifier</key>
+    <string>ctdoteam.revenuecat.block.2026</string>
+    <key>PayloadOrganization</key>
+    <string>Ctdo Đỗ Thành</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>9E178575-1415-4460-B76B-7FCB8F8A5293</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
